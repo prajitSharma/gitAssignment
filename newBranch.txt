@@ -1,1 +1,14 @@
 New File for the branch branchFromlocal
+
+Commands Used:
+
+git checkout -b 'newLocalbranch'
+Creation of the file 'newBranch.txt' 
+git add newBranch.txt
+git commit -m 'addingFileFromLocalBranch'
+git checkout main
+git merge newLocalbranch
+git add .
+git commit -m 'changesFromANewLocalBranch'
+git push origin
+ 
