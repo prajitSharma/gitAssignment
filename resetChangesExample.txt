@@ -1,1 +1,19 @@
 File for reset practice
+
+AddingCode
+Created the File 'resetChangesExample.txt' with content 'File for reset practice'
+git add .
+git commit -m 'FirstCommitToResetFile'
+git push origin
+Editted the file and added the line 'Adding another line and will revert this later'
+git add .
+git commit -m 'AddingANewFileToResetChangeFile'
+git push origin
+git log
+Noted the commit hash id from the logs
+git checkout commitHash -- resetChangesExample.txt
+git add .
+git commit -m 'revertingFileChangesToOlderCommit'
+git push origin
+
+
